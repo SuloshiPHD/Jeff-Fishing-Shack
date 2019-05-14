@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screensframework.Login1Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="114.0" layoutY="24.0" prefHeight="25.0" prefWidth="337.0" text="Login To Your Account" textFill="#ab1194">
+         <font>
+            <Font name="Ink Free" size="32.0" />
+         </font></Label>
+      <TextField fx:id="username" layoutX="142.0" layoutY="103.0" prefHeight="25.0" prefWidth="281.0" promptText="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="145.0" layoutY="146.0" prefHeight="25.0" prefWidth="274.0" text="Enter your Email address as your username" textFill="#27159a">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="userpassword" layoutX="142.0" layoutY="193.0" prefHeight="25.0" prefWidth="281.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="142.0" layoutY="239.0" prefHeight="19.0" prefWidth="281.0" text="Enter your valid password" textFill="#27159a">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="142.0" layoutY="266.0" mnemonicParsing="false" onAction="#setLoginButton" prefHeight="25.0" prefWidth="281.0" text="Login" textFill="#831803">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font></Button>
+      <Label fx:id="isConnected" alignment="CENTER" layoutX="142.0" layoutY="322.0" prefHeight="17.0" prefWidth="274.0" textFill="#ee0e0e">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

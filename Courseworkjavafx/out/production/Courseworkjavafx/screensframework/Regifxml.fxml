@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" prefHeight="414.0" prefWidth="480.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screensframework.RegiController">
+    <padding><Insets bottom="10" left="25" right="25" top="25" /></padding>
+
+    <Text fill="#c90f0f" nodeOrientation="LEFT_TO_RIGHT" text="      Registration Form" wrappingWidth="376.576171875" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0">
+        <font>
+            <Font name="Verdana Bold Italic" size="27.0" />
+        </font></Text>
+
+    <Label prefHeight="33.0" prefWidth="138.0" text="First Name " GridPane.columnIndex="0" GridPane.rowIndex="1">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font></Label>
+
+    <Label prefHeight="33.0" prefWidth="138.0" text="Last Name" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font></Label>
+
+    <Label prefHeight="33.0" prefWidth="138.0" text="Email" GridPane.rowIndex="3">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font></Label>
+    <Label prefHeight="33.0" prefWidth="138.0" text="Password" GridPane.rowIndex="4">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font></Label>
+    <Label prefHeight="33.0" prefWidth="138.0" text="Address " GridPane.rowIndex="5">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font></Label>
+
+    <TextField fx:id="FnameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <TextField fx:id="LnameField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    <TextField fx:id="addressField" prefHeight="50.0" prefWidth="229.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+
+
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="9">
+        <Button fx:id="submitButton" onAction="#handleSubmitButtonAction" prefHeight="25.0" prefWidth="109.0" text="Submit" textFill="#2038d3">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font></Button>
+    </HBox>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+
+
+</GridPane>

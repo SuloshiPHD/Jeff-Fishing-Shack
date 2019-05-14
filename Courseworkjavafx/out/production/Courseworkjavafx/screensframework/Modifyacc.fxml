@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="444.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screensframework.ModifyaccController">
+   <children>
+      <Label alignment="CENTER" layoutX="125.0" layoutY="14.0" prefHeight="51.0" prefWidth="319.0" text="Modify your Account Details" textFill="#8d398a">
+         <font>
+            <Font name="Verdana Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="update" layoutX="443.0" layoutY="394.0" mnemonicParsing="false" onAction="#UpdateButton" prefHeight="25.0" prefWidth="138.0" text="Update" textFill="#6e153d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+      <TextField fx:id="newemail" layoutX="73.0" layoutY="221.0" prefHeight="42.0" prefWidth="390.0" promptText="Enter Your New Email Address Here">
+         <font>
+            <Font size="19.0" />
+         </font></TextField>
+      <TextField fx:id="newaddress" layoutX="73.0" layoutY="315.0" prefHeight="42.0" prefWidth="390.0" promptText="Enter Your New Address Here">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Label layoutX="73.0" layoutY="92.0" prefHeight="17.0" prefWidth="390.0" text="First Enter Your current Email Address to modify details" textFill="#2414ae">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="194.0" prefHeight="19.0" prefWidth="399.0" text="If you want to change your email, Enter your new Email Address " textFill="#2414ae">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="293.0" prefHeight="17.0" prefWidth="390.0" text="If you want to chang your address, Enter your new Address " textFill="#2414ae">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
+      <TextField fx:id="currentEmail" layoutX="73.0" layoutY="121.0" prefHeight="42.0" prefWidth="390.0" promptText="Enter Your Current Email Address Here">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

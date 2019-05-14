@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="730.0" prefWidth="957.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screensframework.ProductCatalogue">
+   <children>
+      <Label alignment="CENTER" layoutX="325.0" layoutY="7.0" prefHeight="17.0" prefWidth="289.0" text="Product Catalogue" textFill="#9910bf">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TitledPane animated="false" layoutX="330.0" layoutY="44.0" prefHeight="164.0" prefWidth="297.0" text="Fishing Reels">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="CODE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="61.0" layoutY="2.0" prefHeight="24.0" prefWidth="79.0" text="SIZE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="135.0" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="PRICE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="#3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="#6">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="#9">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Rs.400">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Rs.800">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Rs.1200">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="pFR1" layoutX="7.0" layoutY="37.0" mnemonicParsing="false" text="FR1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="pFR2" layoutX="7.0" layoutY="70.0" mnemonicParsing="false" text="FR2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="pFR3" layoutX="7.0" layoutY="104.0" mnemonicParsing="false" text="FR3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <Label layoutX="234.0" layoutY="6.0" text="QTY" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="FR1QTY" layoutX="207.0" layoutY="33.0" prefHeight="25.0" prefWidth="79.0" />
+                  <TextField fx:id="FR2QTY" layoutX="207.0" layoutY="66.0" prefHeight="25.0" prefWidth="79.0" />
+                  <TextField fx:id="FR3QTY" layoutX="207.0" layoutY="99.0" prefHeight="25.0" prefWidth="79.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="28.0" layoutY="223.0" prefHeight="164.0" prefWidth="297.0" text="Fishing Rods">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="CODE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="61.0" layoutY="2.0" prefHeight="24.0" prefWidth="79.0" text="SIZE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="135.0" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="PRICE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="3m">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="6m">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="9m">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Rs.300">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Rs.600">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Rs.900">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="RO1" layoutX="5.0" layoutY="37.0" mnemonicParsing="false" text="RO1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="RO2" layoutX="5.0" layoutY="70.0" mnemonicParsing="false" text="RO2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="RO3" layoutX="5.0" layoutY="104.0" mnemonicParsing="false" text="RO3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <Label layoutX="236.0" layoutY="6.0" text="QTY" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="RO1QTY" layoutX="206.0" layoutY="33.0" prefHeight="25.0" prefWidth="83.0" />
+                  <TextField fx:id="RO2QTY" layoutX="205.0" layoutY="66.0" prefHeight="25.0" prefWidth="83.0" />
+                  <TextField fx:id="RO3QTY" layoutX="205.0" layoutY="100.0" prefHeight="25.0" prefWidth="83.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="32.0" layoutY="44.0" prefHeight="164.0" prefWidth="289.0" text="Fishing Hooks">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="CODE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="67.0" layoutY="2.0" prefHeight="24.0" prefWidth="79.0" text="SIZE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="135.0" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="PRICE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Small">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="73.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Medium">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="73.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Large">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Rs.500">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Rs.1000">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Rs.1500">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="FH1" layoutX="7.0" layoutY="37.0" mnemonicParsing="false" text="FH1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="FH2" layoutX="7.0" layoutY="70.0" mnemonicParsing="false" text="FH2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="FH3" layoutX="7.0" layoutY="104.0" mnemonicParsing="false" text="FH3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <Label layoutX="226.0" layoutY="6.0" prefHeight="17.0" prefWidth="33.0" text="QTY" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="FH1QTY" layoutX="204.0" layoutY="33.0" prefHeight="25.0" prefWidth="74.0" />
+                  <TextField fx:id="FH2QTY" layoutX="203.0" layoutY="67.0" prefHeight="25.0" prefWidth="74.0" />
+                  <TextField fx:id="FH3QTY" layoutX="203.0" layoutY="98.0" prefHeight="25.0" prefWidth="74.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="639.0" layoutY="44.0" prefHeight="164.0" prefWidth="289.0" text="Fishing Line">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="CODE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="61.0" layoutY="2.0" prefHeight="24.0" prefWidth="79.0" text="SIZE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="135.0" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="PRICE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="100m">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="200m">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="300m">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Rs.600">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Rs.1200">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Rs.1800">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="FL1" layoutX="8.0" layoutY="37.0" mnemonicParsing="false" text="FL1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="FL2" layoutX="8.0" layoutY="70.0" mnemonicParsing="false" text="FL2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="FL3" layoutX="8.0" layoutY="104.0" mnemonicParsing="false" text="FL3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <Label layoutX="228.0" layoutY="6.0" text="QTY" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="FL1QTY" layoutX="199.0" layoutY="33.0" prefHeight="25.0" prefWidth="78.0" />
+                  <TextField fx:id="FL2QTY" layoutX="199.0" layoutY="66.0" prefHeight="25.0" prefWidth="78.0" />
+                  <TextField fx:id="FL3QTY" layoutX="198.0" layoutY="98.0" prefHeight="25.0" prefWidth="78.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="334.0" layoutY="223.0" prefHeight="164.0" prefWidth="289.0" text="Sinkers">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="138.0" prefWidth="289.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="CODE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="61.0" layoutY="2.0" prefHeight="24.0" prefWidth="79.0" text="SIZE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="135.0" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="PRICE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="30g">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="60g">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="90g">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Rs.250">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Rs.500">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Rs.750">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="SI1" layoutX="5.0" layoutY="37.0" mnemonicParsing="false" text="SI1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="SI2" layoutX="4.0" layoutY="70.0" mnemonicParsing="false" text="SI2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="SI3" layoutX="4.0" layoutY="104.0" mnemonicParsing="false" text="SI3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <Label layoutX="227.0" layoutY="6.0" text="QTY" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="SI1QTY" layoutX="199.0" layoutY="33.0" prefHeight="25.0" prefWidth="80.0" />
+                  <TextField fx:id="SI2QTY" layoutX="198.0" layoutY="66.0" prefHeight="25.0" prefWidth="80.0" />
+                  <TextField fx:id="SI3QTY" layoutX="197.0" layoutY="100.0" prefHeight="25.0" prefWidth="80.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="640.0" layoutY="221.0" prefHeight="164.0" prefWidth="297.0" text="Swivels">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="CODE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="61.0" layoutY="2.0" prefHeight="24.0" prefWidth="79.0" text="SIZE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="135.0" layoutY="2.0" prefHeight="24.0" prefWidth="68.0" text="PRICE" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Small">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Medium">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Large">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="33.0" prefHeight="24.0" prefWidth="68.0" text="Rs.450">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="66.0" prefHeight="24.0" prefWidth="68.0" text="Rs.900">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="100.0" prefHeight="24.0" prefWidth="68.0" text="Rs.1550">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="SW1" layoutX="3.0" layoutY="39.0" mnemonicParsing="false" text="SW1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="SW2" layoutX="3.0" layoutY="70.0" mnemonicParsing="false" text="SW2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="SW3" layoutX="3.0" layoutY="104.0" mnemonicParsing="false" text="SW3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></CheckBox>
+                  <Label layoutX="237.0" layoutY="6.0" text="QTY" textFill="#180ee1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="SW1QTY" layoutX="201.0" layoutY="33.0" prefHeight="25.0" prefWidth="89.0" />
+                  <TextField fx:id="SW2QTY" layoutX="202.0" layoutY="65.0" prefHeight="25.0" prefWidth="89.0" />
+                  <TextField fx:id="SW3QTY" layoutX="202.0" layoutY="99.0" prefHeight="25.0" prefWidth="89.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+      <Button fx:id="addCart" layoutX="28.0" layoutY="426.0" mnemonicParsing="false" onAction="#AddtocartButton" prefHeight="25.0" prefWidth="189.0" text="1.ADD TO CART" textFill="#2e7c0a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewTot" layoutX="240.0" layoutY="426.0" mnemonicParsing="false" onAction="#ViewTotButton" prefHeight="39.0" prefWidth="236.0" text="2.View Total Amount" textFill="#2e7c0a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="showtot" layoutX="492.0" layoutY="426.0" prefHeight="38.0" prefWidth="452.0" textFill="#d00b0b">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="purchase" layoutX="492.0" layoutY="598.0" mnemonicParsing="false" onAction="#sendInvoice" prefHeight="25.0" prefWidth="189.0" text="Purchase Order!" textFill="#1c0b7a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <PasswordField layoutX="32.0" layoutY="590.0" prefHeight="39.0" prefWidth="415.0" promptText="Enter Your Credit Card Number ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="purchaseEmail" layoutX="32.0" layoutY="526.0" prefHeight="46.0" prefWidth="415.0" promptText="Enter Your Email Address">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
